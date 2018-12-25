@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+	background-color: #666;
+}
+
+.wrapper{
+	width: 1000px;
+	margin: auto;
+}
+
+.header{
+ font-family: Verdana, Geneva, sans-serif;
+ font-size: 24px;
+ color: #F93;
+ background-image: url("images/bg-header.jpg");
+ height: 120px;
+ width: 1000px;
+ border-bottom-width: 5px;
+ border-bottom-style: groove;
+ border-bottom-color: #F60;
+}
+
+.left{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino,serif;
+	font-size: 18px;
+	font-weight: bold;
+	background-color:#187eae;
+	text-align: right;
+	display: block;
+	float: left;
+	height: 100%;
+	width: 200px;
+	border-right-width: 5px;
+	border-right-style: groove;
+	border-right-color: #F60;
+	
+
+}
+
+.left a{
+	text-decoration: none;
+	color:white;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino,serif;
+	font-size: 18px;
+	text-align: right;
+	padding:8px;
+	margin-bottom: 8px;
+	display: block;
+}
+
+.left a:hover{
+	color: #F90;
+	text-decoration: underline;
+}
+
+.left a:visited{
+	color: #FFF;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino,serif;
+
+}
+
+.right{
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+	color: #000;
+	background-image: url("images/bg-body.gif");
+	float: right;
+	height: 100%;
+	width: 795px;
+}
+
+.footer{
+	height: 100px;
+	width: 1000px;
+	background-color: skyblue;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
